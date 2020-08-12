@@ -1,8 +1,8 @@
 
 
 
-def Tiene_Tilde(s):
-    return len(s) != len(s.encode())
+def Tiene_Tilde(lapalabra):
+    return len(lapalabra) != len(lapalabra.encode())
 
 frase='todos somos programadores'
 palabras= frase.split()
