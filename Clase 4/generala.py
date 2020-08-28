@@ -40,23 +40,17 @@ Podemos estimar la probabilidad de sacar generala servida mediante 0.000739.
 
         
 def primer_tirada(lista):
-    numero=0
-    veces_numero=0
-    while len(lista)>0:
-        dado=lista[0]
-        index_repetidos=[k for k,j in enumerate(lista) if j==dado ]
-        repetidos=len(index_repetidos)
-        if repetidos>veces_numero:
-            veces_numero=repetidos
-            numero=dado
-        if repetidos!=0:
-            for repetido in index_repetidos[::-1]:
-                lista.pop(repetido)
-        else:
-            lista.pop(0)
+    numero, veces_numero=0,0
+    for numeros in list(set(lista)):
+        veces=len([k for k,j in enumerate(lista) if j==numeros ])
+        if veces>veces_numero:
+            veces_numero=veces
+            numero=numeros
+
+
     return numero, veces_numero
 
-
+#%%
 def generala_no_servida(lista):
     numero,veces_numero=primer_tirada(lista)
     generala=None
@@ -82,7 +76,7 @@ def generala_no_servida(lista):
 
 
 # %%
-N=1000000
+N=10000
 salio_generala_no_servida = [generala_no_servida(tirar()) for i in range(N)]
 G = sum([generala_no_servida(tirar()) for i in range(N)])
 prob = G/N
