@@ -21,7 +21,6 @@ def es_generala(tirada):
 
 # %%
 N=1000000
-salio_generala_servida = [es_generala(tirar()) for i in range(N)]
 G = sum([es_generala(tirar()) for i in range(N)])
 prob = G/N
 print(f'Tiré {N} veces, de las cuales {G} saqué generala servida.')
