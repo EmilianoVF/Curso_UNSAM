@@ -22,4 +22,6 @@ temperaturas=np.load('/home/emiliano/Desktop/Curso_UNSAM/Data/Temperaturas.npy')
 plt.hist(temperaturas,bins=20)
 plt.show()
 
+# %%
+
 
