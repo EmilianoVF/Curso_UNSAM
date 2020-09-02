@@ -3,6 +3,8 @@ import random
 import numpy as np
 
 #%%
+
+
 def tirar(dados=5,*args):
     if args:
         cantidad_dados=args

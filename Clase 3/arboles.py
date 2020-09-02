@@ -1,9 +1,10 @@
 
 #%%
 import csv
+import numpy as np
 
 def leer_parque(nombre_archivo,parque):
-    with open('/home/emiliano/Desktop/Curso_UNSAM/ejercicios_python/Data/'+nombre_archivo) as f:
+    with open('/home/emiliano/Desktop/Curso_UNSAM/Data/'+nombre_archivo) as f:
         readCSV=csv.reader(f,delimiter=',')
         encabezados=next(readCSV)
         data=[]
@@ -34,6 +35,7 @@ Especies_inclinadas=[arbol['nombre_com'] for arbol in arboleda if arbol['inclina
 
 
 Jacaranda_D_Y_H=[(arbol['diametro'],arbol['altura_tot']) for arbol in arboleda if arbol['nombre_com']=='Jacarandá']
+np.save('/home/emiliano/Desktop/Curso_UNSAM/Data/Jacaranda_D_Y_H.npy',Jacaranda_D_Y_H)
 
 
 # %%
