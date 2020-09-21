@@ -1,0 +1,5 @@
+{
+    "python.linting.pycodestyleEnabled": true,
+    "python.pythonPath": "/home/emiliano/emi/bin/python3",
+    "python.formatting.autopep8Path": "/home/emiliano/emi/lib/python3.8/site-packages/pep8"
+}

@@ -1,7 +1,8 @@
 #%%i
 import csv
 
-def parse_csv(nombre_archivo, select = None, types=[str, int, float], has_headers=True):
+
+def parse_csv(nombre_archivo, select=None, types=[str, int, float], has_headers=True):
     '''
     Parsea un archivo CSV en una lista de registros.
     Se puede seleccionar sólo un subconjunto de las columnas, determinando el parámetro select, que debe ser una lista de nombres de las columnas a considerar.
@@ -36,7 +37,6 @@ def parse_csv(nombre_archivo, select = None, types=[str, int, float], has_header
                 registros.append(registro)
 
         if not has_headers:
-        
             registros = []
             for fila in filas:
                 if not fila:
