@@ -8,7 +8,8 @@ def itero(filas, select, types, has_headers):
     if has_headers:
         encabezados = next(filas)
         if select:
-            indices = [encabezados.index(nombre_columna) for nombre_columna in select]
+            indices = [encabezados.index(nombre_columna) for nombre_columna in
+                       select]
             encabezados = select
         else:
             indices = []
@@ -79,5 +80,8 @@ def parse_csv(filas, select=None, types=[str, int, float],
         if suffix == '.gz':
             with gzip.open(filas, 'rt') as f:
                 filas = csv.reader(f)
-                registros = itero(filas, select, types, has_headers)      
+                registros = itero(filas, select, types, has_headers)
     return registros
+
+
+print('que bueno que esta esto')

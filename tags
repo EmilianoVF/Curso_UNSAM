@@ -1,0 +1,191 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+CLOSE_TVPA	Clase 5/bonos.py	/^CLOSE_TVPA = [PA['close'] for PA in TVPA if PA['date'] in DIAS_TVPE_TVPA]$/;"	v
+CLOSE_TVPE_TVPA	Clase 5/bonos.py	/^CLOSE_TVPE_TVPA = [PE['close'] for PE in TVPE if PE['date'] in DIAS_TVPE_TVPA]$/;"	v
+CLOSE_TVPE_TVPP	Clase 5/bonos.py	/^CLOSE_TVPE_TVPP = [PE['close'] for PE in TVPE if PE['date'] in DIAS_TVPE_TVPP]$/;"	v
+CLOSE_TVPE_TVPY	Clase 5/bonos.py	/^CLOSE_TVPE_TVPY = [PE['close'] for PE in TVPE if PE['date'] in DIAS_TVPE_TVPY]$/;"	v
+CLOSE_TVPP	Clase 5/bonos.py	/^CLOSE_TVPP = [PP['close'] for PP in TVPP if PP['date'] in DIAS_TVPE_TVPP]$/;"	v
+CLOSE_TVPY	Clase 5/bonos.py	/^CLOSE_TVPY = [PY['close'] for PY in TVPY if PY['date'] in DIAS_TVPE_TVPY]$/;"	v
+DIAS_TVPA	Clase 5/bonos.py	/^DIAS_TVPA = [PA['date'] for PA in TVPA]$/;"	v
+DIAS_TVPE	Clase 5/bonos.py	/^DIAS_TVPE = [PE['date'] for PE in TVPE]$/;"	v
+DIAS_TVPE_TVPA	Clase 5/bonos.py	/^DIAS_TVPE_TVPA = set(DIAS_TVPE).intersection(set(DIAS_TVPA))$/;"	v
+DIAS_TVPE_TVPP	Clase 5/bonos.py	/^DIAS_TVPE_TVPP = set(DIAS_TVPE).intersection(set(DIAS_TVPP))$/;"	v
+DIAS_TVPE_TVPY	Clase 5/bonos.py	/^DIAS_TVPE_TVPY = set(DIAS_TVPE).intersection(set(DIAS_TVPY))$/;"	v
+DIAS_TVPP	Clase 5/bonos.py	/^DIAS_TVPP = [PP['date'] for PP in TVPP]$/;"	v
+DIAS_TVPY	Clase 5/bonos.py	/^DIAS_TVPY = [PY['date'] for PY in TVPY]$/;"	v
+D_30_y_40	Clase 3/arboles.py	/^D_30_y_40=[arbol['diametro'] for arbol in arboleda if arbol['altura_tot']<40 and arbol['altura_t/;"	v
+E	Clase 4/envido.py	/^E=[]$/;"	v
+Especies_inclinadas	Clase 3/arboles.py	/^Especies_inclinadas=[arbol['nombre_com'] for arbol in arboleda if arbol['inclinacio']>80]$/;"	v
+G	Clase 4/generala.py	/^G = sum([es_generala(tirar()) for i in range(N)])$/;"	v
+G	Clase 4/generala.py	/^G = sum([generala_no_servida(tirar()) for i in range(N)])$/;"	v
+H_30_y_40	Clase 3/arboles.py	/^H_30_y_40=[arbol['altura_tot'] for arbol in arboleda if arbol['altura_tot']<40 and arbol['altura/;"	v
+Jacaranda_D_Y_H	Clase 3/arboles.py	/^Jacaranda_D_Y_H=[(arbol['diametro'],arbol['altura_tot']) for arbol in arboleda if arbol['nombre_/;"	v
+Jacaranda_D_Y_H	Clase 4/arboles.py	/^Jacaranda_D_Y_H=np.load('\/home\/emiliano\/Desktop\/Curso_UNSAM\/Data\/Jacaranda_D_Y_H.npy').tol/;"	v
+N	Clase 4/envido.py	/^N=100000$/;"	v
+N	Clase 4/generala.py	/^N=1000000$/;"	v
+N	Clase 6/random_walk.py	/^N = 10000$/;"	v
+T	Clase 4/termometro.py	/^T=sorted([random.normalvariate(37.5,0.2) for i in range(999)])$/;"	v
+TVPA	Clase 5/bonos.py	/^TVPA = fp.parse_csv('\/home\/emiliano\/Desktop\/Curso_UNSAM\/bono_data\/TVPA.csv',$/;"	v
+TVPE	Clase 5/bonos.py	/^TVPE = fp.parse_csv('\/home\/emiliano\/Desktop\/Curso_UNSAM\/bono_data\/TVPE.csv',$/;"	v
+TVPP	Clase 5/bonos.py	/^TVPP = fp.parse_csv('\/home\/emiliano\/Desktop\/Curso_UNSAM\/bono_data\/TVPP.csv',$/;"	v
+TVPY	Clase 5/bonos.py	/^TVPY = fp.parse_csv('\/home\/emiliano\/Desktop\/Curso_UNSAM\/bono_data\/TVPY.csv',$/;"	v
+Tiene_Tilde	Clase 1/inclusive.py	/^def Tiene_Tilde(lapalabra):$/;"	f
+a_quien_le_falta	Clase 4/figuritas.py	/^def a_quien_le_falta(figu,albumes_amigues):$/;"	f
+album_incompleto	Clase 4/figuritas.py	/^def album_incompleto(A):$/;"	f
+album_incompleto_amigues	Clase 4/figuritas.py	/^def album_incompleto_amigues(A):$/;"	f
+altura	Clase 1/rebotes.py	/^    altura = altura*3\/5$/;"	v
+altura	Clase 1/rebotes.py	/^altura = 100$/;"	v
+arboleda	Clase 3/arboles.py	/^arboleda=leer_parque('arbolado-en-espacios-verdes.csv','TODOS')$/;"	v
+buscar_n_elemento	Clase 3/busqueda_en_listas.py	/^def buscar_n_elemento(lista, elem):$/;"	f
+buscar_u_elemento	Clase 3/busqueda_en_listas.py	/^def buscar_u_elemento(lista, elem):$/;"	f
+busqueda_binaria	Clase 5/bbin.py	/^def busqueda_binaria(lista,x):$/;"	f
+busqueda_binaria	Clase 5/plot_bbin_vs_bsec.py	/^def busqueda_binaria(lista,x):$/;"	f
+busqueda_secuencial_	Clase 5/plot_bbin_vs_bsec.py	/^def busqueda_secuencial_(lista, x):$/;"	f
+cadena	Clase 1/geringoso.py	/^cadena = 'Geringoso'$/;"	v
+caminata_cercana	Clase 6/random_walk.py	/^caminata_cercana = suma_distancia_parciales.index(min(suma_distancia_parciales))$/;"	v
+caminata_lejana	Clase 6/random_walk.py	/^caminata_lejana = suma_distancia_parciales.index(max(suma_distancia_parciales))$/;"	v
+caminatas	Clase 6/random_walk.py	/^caminatas = [randomwalk(10000) for _ in range(12)]$/;"	v
+cantidad_de_comparaciones_binarias	Clase 5/plot_bbin_vs_bsec.py	/^cantidad_de_comparaciones_binarias=[]$/;"	v
+cantidad_de_comparaciones_lineales	Clase 5/plot_bbin_vs_bsec.py	/^cantidad_de_comparaciones_lineales=[]$/;"	v
+capadepenapa	Clase 1/geringoso.py	/^capadepenapa = ''$/;"	v
+collatz	Clase 6/documentacion.py	/^def collatz(n):$/;"	f
+comprar_figus	Clase 4/figuritas.py	/^def comprar_figus(figus_total):$/;"	f
+comprar_paquete	Clase 4/figuritas.py	/^def comprar_paquete(figus_total,figus_paquete):$/;"	f
+comprar_paquete_sin_repes	Clase 4/figuritas.py	/^def comprar_paquete_sin_repes(figus_total,figus_paquete):$/;"	f
+contar_ejemplares	Clase 2/arboles.py	/^def contar_ejemplares(lista_arboles):$/;"	f
+contar_ejemplares_en	Clase 2/arboles.py	/^def contar_ejemplares_en(parques):$/;"	f
+cooperar_vs_competir	Clase 4/figuritas.py	/^def cooperar_vs_competir(figus_total,figus_paquete,cantidad_amigues):$/;"	f
+costo_camion	Clase 5/costo_camion.py	/^def costo_camion(nombre_archivo):$/;"	f
+costo_camion	Clase 6/costo_camion.py	/^def costo_camion(nombre_archivo):$/;"	f
+crear_album	Clase 4/figuritas.py	/^def crear_album(figus_total):$/;"	f
+crear_album_amigues	Clase 4/figuritas.py	/^def crear_album_amigues(figus_total,cantidad_amigues):$/;"	f
+cuantas_figus	Clase 4/figuritas.py	/^def cuantas_figus(figus_total):$/;"	f
+cuantos_paquetes	Clase 4/figuritas.py	/^def cuantos_paquetes(figus_total,figus_paquete):$/;"	f
+cuantos_paquetes_sin_repes	Clase 4/figuritas.py	/^def cuantos_paquetes_sin_repes(figus_total,figus_paquete):$/;"	f
+d	Clase 4/arboles.py	/^d=[Jacaranda_D_Y_H[i][0] for i in range(len(Jacaranda_D_Y_H))]$/;"	v
+decime_los_inclinados	Clase 2/arboles.py	/^def decime_los_inclinados(lista_arboles):$/;"	f
+decime_los_mas_altos	Clase 2/arboles.py	/^def decime_los_mas_altos(lista_arboles):$/;"	f
+distancias_parciales	Clase 6/random_walk.py	/^distancias_parciales = []$/;"	v
+donde_insertar	Clase 5/bbin.py	/^def donde_insertar(lista,x):$/;"	f
+envido	Clase 4/envido.py	/^def envido(lista):$/;"	f
+envido_en_una_mano	Clase 4/envido.py	/^def envido_en_una_mano():$/;"	f
+es_generala	Clase 4/generala.py	/^def es_generala(tirada):$/;"	f
+especie_mas_inclinada_en	Clase 2/arboles.py	/^def especie_mas_inclinada_en(parques):$/;"	f
+especie_promedio_mas_inclinada	Clase 2/arboles.py	/^def especie_promedio_mas_inclinada(lista_arboles):$/;"	f
+especie_promedio_mas_inclinada_en	Clase 2/arboles.py	/^def especie_promedio_mas_inclinada_en(parques):$/;"	f
+especies	Clase 2/arboles.py	/^def especies(lista_arboles):$/;"	f
+especimen_mas_alto_todos	Clase 2/arboles.py	/^def especimen_mas_alto_todos(lista_arboles):$/;"	f
+especimen_mas_inclinado	Clase 2/arboles.py	/^def especimen_mas_inclinado(lista_arboles):$/;"	f
+especimen_mas_inclinado_todos	Clase 2/arboles.py	/^def especimen_mas_inclinado_todos(lista_arboles):$/;"	f
+experimento_binario_promedio	Clase 5/plot_bbin_vs_bsec.py	/^def experimento_binario_promedio(lista, k):$/;"	f
+experimento_secuencial_promedio	Clase 5/plot_bbin_vs_bsec.py	/^def experimento_secuencial_promedio(lista, k):$/;"	f
+fig	Clase 6/random_walk.py	/^fig = plt.figure(figsize=(8, 8))$/;"	v
+fp	Clase 5/bonos.py	/^import fileparse as fp$/;"	I
+fp	Clase 5/informe_funciones.py	/^import fileparse as fp$/;"	I
+fp	Clase 6/informe_funciones.py	/^import fileparse as fp$/;"	I
+frase	Clase 1/inclusive.py	/^frase = 'todos somos programadores'$/;"	v
+frase_t	Clase 1/inclusive.py	/^frase_t = []$/;"	v
+generala_no_servida	Clase 4/generala.py	/^def generala_no_servida(lista):$/;"	f
+generar_elemento	Clase 5/plot_bbin_vs_bsec.py	/^def generar_elemento(m):$/;"	f
+h	Clase 4/arboles.py	/^h=[Jacaranda_D_Y_H[i][1] for i in range(len(Jacaranda_D_Y_H))]$/;"	v
+i	Clase 1/rebotes.py	/^i = 1$/;"	v
+inferior	Clase 6/random_walk.py	/^inferior, superior = plt.ylim()$/;"	v
+informe	Clase 2/informe.py	/^def informe(precios_venta,precios_costo):$/;"	f
+informe_camion	Clase 5/informe_funciones.py	/^def informe_camion(nombre_archivo1, nombre_archivo2):$/;"	f
+informe_camion	Clase 6/informe_funciones.py	/^def informe_camion(nombre_archivo1, nombre_archivo2):$/;"	f
+invertir_lista	Clase 3/invlista.py	/^def invertir_lista(lista):$/;"	f
+ipa	Clase 4/envido.py	/^        ipa=19$/;"	v
+ipa	Clase 4/envido.py	/^    ipa=envido_en_una_mano()$/;"	v
+itero	Clase 6/fileparse.py	/^def itero(filas, select, types, has_headers):$/;"	f
+itero_iterables	Clase 6/fileparse.py	/^def itero_iterables(filas, select, types, has_headers):$/;"	f
+j	Clase 1/inclusive.py	/^            j = 1$/;"	v
+leer_camion	Clase 2/informe.py	/^def leer_camion(nombre_archivo):$/;"	f
+leer_camion	Clase 5/informe_funciones.py	/^def leer_camion(nombre_archivo):$/;"	f
+leer_camion	Clase 6/informe_funciones.py	/^def leer_camion(nombre_archivo):$/;"	f
+leer_parque	Clase 2/arboles.py	/^def leer_parque(nombre_archivo,parque):$/;"	f
+leer_parque	Clase 3/arboles.py	/^def leer_parque(nombre_archivo,parque):$/;"	f
+leer_precios	Clase 2/informe.py	/^def leer_precios(nombre_archivo):$/;"	f
+leer_precios	Clase 5/informe_funciones.py	/^def leer_precios(nombre_archivo):$/;"	f
+leer_precios	Clase 6/informe_funciones.py	/^def leer_precios(nombre_archivo):$/;"	f
+len_listas	Clase 5/plot_bbin_vs_bsec.py	/^len_listas=np.linspace(1,256,50,dtype=int)$/;"	v
+lista	Clase 5/plot_bbin_vs_bsec.py	/^    lista=sorted([random.randint(1,l) for i in range(l)])$/;"	v
+lista_ciudades	Clase 3/invlista.py	/^lista_ciudades=['Bogotá', 'Rosario', 'Santiago', 'San Fernando', 'San Miguel']$/;"	v
+lista_numeros	Clase 3/invlista.py	/^lista_numeros=[1,2,3,4,5]$/;"	v
+maximo	Clase 3/busqueda_en_listas.py	/^def maximo(lista):$/;"	f
+mes	Clase 1/hipoteca.py	/^mes = 0$/;"	v
+minimo	Clase 3/busqueda_en_listas.py	/^def minimo(lista):$/;"	f
+multiplico	Clase 6/documentacion.py	/^def multiplico(a, b):$/;"	f
+np	Clase 3/arboles.py	/^import numpy as np$/;"	I
+np	Clase 4/arboles.py	/^import numpy as np$/;"	I
+np	Clase 4/figuritas.py	/^import numpy as np$/;"	I
+np	Clase 4/generala.py	/^import numpy as np$/;"	I
+np	Clase 4/termometro.py	/^import numpy as np$/;"	I
+np	Clase 5/bonos.py	/^import numpy as np$/;"	I
+np	Clase 5/plot_bbin_vs_bsec.py	/^import numpy as np$/;"	I
+np	Clase 6/random_walk.py	/^import numpy as np$/;"	I
+obtener_alturas	Clase 2/arboles.py	/^def obtener_alturas(lista_arboles,especie):$/;"	f
+obtener_alturas_en	Clase 2/arboles.py	/^def obtener_alturas_en(parques,especie):$/;"	f
+obtener_inclinaciones	Clase 2/arboles.py	/^def obtener_inclinaciones(lista_arboles,especie):$/;"	f
+pago	Clase 1/hipoteca.py	/^        pago = pago_mensual+pago_extra$/;"	v
+pago	Clase 1/hipoteca.py	/^        pago = saldo * (1+tasa\/12)$/;"	v
+pago_extra	Clase 1/hipoteca.py	/^pago_extra = 1000$/;"	v
+pago_extra_mes_comienzo	Clase 1/hipoteca.py	/^pago_extra_mes_comienzo = 61$/;"	v
+pago_extra_mes_fin	Clase 1/hipoteca.py	/^pago_extra_mes_fin = 108$/;"	v
+pago_mensual	Clase 1/hipoteca.py	/^pago_mensual = 2684.11$/;"	v
+palabra	Clase 1/inclusive.py	/^            palabra = ''.join(palabra_t)$/;"	v
+palabra_t	Clase 1/inclusive.py	/^        palabra_t = list(palabra)$/;"	v
+palabras	Clase 1/inclusive.py	/^palabras = frase.split()$/;"	v
+parques	Clase 2/arboles.py	/^parques=['GENERAL PAZ', 'ANDES, LOS','CENTENARIO']$/;"	v
+parse_csv	Clase 5/fileparse.py	/^def parse_csv(nombre_archivo, select=None, types=[str, int, float], has_headers=True):$/;"	f
+parse_csv	Clase 6/fileparse.py	/^def parse_csv(filas, select=None, types=[str, int, float],$/;"	f
+plt	Clase 4/arboles.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	Clase 4/envido.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	Clase 4/figuritas.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	Clase 4/termometro.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	Clase 5/bonos.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	Clase 5/plot_bbin_vs_bsec.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	Clase 6/random_walk.py	/^import matplotlib.pyplot as plt$/;"	I
+precio_de	Clase 5/informe_funciones.py	/^    def precio_de(fruta):$/;"	f	function:informe_camion	file:
+precio_de	Clase 6/informe_funciones.py	/^    def precio_de(fruta):$/;"	f	function:informe_camion	file:
+precios_costo	Clase 2/informe.py	/^precios_costo=leer_camion('Data\/camion.csv')$/;"	v
+precios_venta	Clase 2/informe.py	/^precios_venta=leer_precios('Data\/precios.csv')$/;"	v
+primer_tirada	Clase 4/generala.py	/^def primer_tirada(lista):$/;"	f
+prob	Clase 4/generala.py	/^prob = G\/N$/;"	v
+propaga	Clase 3/propaga.py	/^def propaga(lista):$/;"	f
+propaga2	Clase 3/propaga.py	/^def propaga2(lista):$/;"	f
+python.formatting.autopep8Path	.vscode/settings.json	/^    "python.formatting.autopep8Path": "\/home\/emiliano\/emi\/lib\/python3.8\/site-packages\/pep/;"	s
+python.linting.pycodestyleEnabled	.vscode/settings.json	/^    "python.linting.pycodestyleEnabled": true,$/;"	b
+python.pythonPath	.vscode/settings.json	/^    "python.pythonPath": "\/home\/emiliano\/emi\/bin\/python3",$/;"	s
+r	Clase 1/esfera.py	/^r = int(input('Escribi el radio de la esfera en numero, gracias: '))$/;"	v
+randomwalk	Clase 6/random_walk.py	/^def randomwalk(largo):$/;"	f
+rebotes	Clase 1/rebotes.py	/^rebotes = 10$/;"	v
+reparto	Clase 4/envido.py	/^def reparto(naipes):$/;"	f
+saldo	Clase 1/hipoteca.py	/^        saldo = saldo * (1+tasa\/12) - pago$/;"	v
+saldo	Clase 1/hipoteca.py	/^    saldo = saldo * (1+tasa\/12) - pago$/;"	v
+saldo	Clase 1/hipoteca.py	/^saldo = 500000.0$/;"	v
+salio_generala_no_servida	Clase 4/generala.py	/^salio_generala_no_servida = [generala_no_servida(tirar()) for i in range(N)]$/;"	v
+suma_distancia_parciales	Clase 6/random_walk.py	/^suma_distancia_parciales = [sum(distancias) for distancias in distancias_parciales]$/;"	v
+suma_pares	Clase 6/documentacion.py	/^def suma_pares(lista):$/;"	f
+sumo_envido	Clase 4/envido.py	/^def sumo_envido(lista):$/;"	f
+sumo_letra	Clase 1/geringoso.py	/^        sumo_letra = 'apa'$/;"	v
+sumo_letra	Clase 1/geringoso.py	/^        sumo_letra = 'epe'$/;"	v
+sumo_letra	Clase 1/geringoso.py	/^        sumo_letra = 'ipi'$/;"	v
+sumo_letra	Clase 1/geringoso.py	/^        sumo_letra = 'opo'$/;"	v
+sumo_letra	Clase 1/geringoso.py	/^        sumo_letra = 'upu'$/;"	v
+sumo_letra	Clase 1/geringoso.py	/^sumo_letra = ''$/;"	v
+superior	Clase 6/random_walk.py	/^inferior, superior = plt.ylim()$/;"	v
+tasa	Clase 1/hipoteca.py	/^tasa = 0.05$/;"	v
+temperaturas	Clase 4/termometro.py	/^temperaturas=np.load('\/home\/emiliano\/Desktop\/Curso_UNSAM\/Data\/Temperaturas.npy').tolist()$/;"	v
+tiene_a	Clase 3/solucion_de_errores.py	/^def tiene_a(expresion):$/;"	f
+tirar	Clase 4/generala.py	/^def tirar(dados=5,*args):$/;"	f
+total_pagado	Clase 1/hipoteca.py	/^        total_pagado = total_pagado + pago$/;"	v
+total_pagado	Clase 1/hipoteca.py	/^    total_pagado = total_pagado + pago$/;"	v
+total_pagado	Clase 1/hipoteca.py	/^total_pagado = 0.0$/;"	v
+valor_absoluto	Clase 6/documentacion.py	/^def valor_absoluto(n):$/;"	f
+volumen	Clase 1/esfera.py	/^volumen = (4\/3)*(3.1416)*(r*r*r)$/;"	v
