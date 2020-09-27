@@ -5,12 +5,6 @@ import argparse
 
 
 def listar_imgs():
-
-    '''
-    Lista las imagenes dentro del directorio que le pasas incluyendo
-    los subdirectorios
-    '''
-
     imgs = []
     for root, dirs, files in os.walk(directorio):
         for name in files:
@@ -59,8 +53,8 @@ def borro_directorios(directorio):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Te lista las imagenes que'
-                                     'tenes en tu directorio y subdirectorio')
+    parser = argparse.ArgumentParser(description='Mando las fotos que tengas'
+                                     'en tu directorio a otro directorio')
     parser.add_argument('--path', required=True,
                         help='Es el directorio donde estan las fotos')
     parser.add_argument('--formato', default='png', help='Es el formato en el'
