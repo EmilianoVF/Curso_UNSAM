@@ -6,7 +6,7 @@ def listar_imgs():
 
     '''
     Lista las imagenes dentro del directorio que le pasas incluyendo
-    los subdirectorios
+    los subdirectorios, le podes especificar si con .png o .jpg
     '''
     parser = argparse.ArgumentParser(description='Te lista las imagenes que'
                                      'tenes en tu directorio y subdirectorio')
