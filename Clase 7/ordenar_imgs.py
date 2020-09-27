@@ -20,7 +20,7 @@ def listar_imgs():
             print(img)
     return imgs
 
-
+# un comentario para ver si me anda el git de nvim
 def modifica_imgs(imgs):
     new_imgs = []
     for root, img, dirs in imgs:
@@ -69,3 +69,5 @@ if __name__ == '__main__':
     new_imgs = modifica_imgs(imgs)
     traslada_imgs(new_imgs)
     borro_directorios(directorio)
+
+    # algo para ver si me anda el git desde nvim
