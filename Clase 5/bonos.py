@@ -1,10 +1,7 @@
-#%%
-
 import csv
 import sys
 import fileparse as fp
 import matplotlib.pyplot as plt
-import numpy as np
 
 
 TVPP = fp.parse_csv('/home/emiliano/Desktop/Curso_UNSAM/bono_data/TVPP.csv',
